@@ -1,0 +1,44 @@
+/********** Template CSS **********/
+:root {
+  --primary: #13C5DD !important;
+  --secondary: #354F8E !important;
+  --light: #EFF5F9 !important;
+  --dark: #1D2A4D !important;
+}
+
+body {
+  font-family: 'IRLight';
+  background-color: #f8f8f8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'IRBold';
+}
+
+p {
+  font-family: 'IRLight';
+}
+
+span {
+  font-family: 'IRLight';
+}
+
+a {
+  font-family: 'IRLight';
+  text-decoration: none;
+}
+
+.v-btn {
+  font-family: 'IRBold' !important;
+}
+
+.card-back {
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  position: absolute;
+  background-color: white;
+  z-index: 100;
+  top: 70px;
+  left: 0;
+  right: 0;
+}

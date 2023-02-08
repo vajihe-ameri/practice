@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'IRLight';
+  src: url('@/assets/fonts/IRANSansWeb(FaNum)_Light.eot') format('eot'),  /* IE6–8 */
+  url('@/assets/fonts/IRANSansWeb(FaNum)_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('@/assets/fonts/IRANSansWeb(FaNum)_Light.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'IRMed';
+  src: url('@/assets/fonts/IRANSansWeb(FaNum)_Medium.eot') format('eot'),
+  url('@/assets/fonts/IRANSansWeb(FaNum)_Medium.woff') format('woff'),
+  url('@/assets/fonts/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRBold';
+  src: url('@/assets/fonts/IRANSansWeb(FaNum)_Bold.eot') format('eot'),
+  url('@/assets/fonts/IRANSansWeb(FaNum)_Bold.woff') format('woff'),
+  url('@/assets/fonts/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRBlack';
+  src: url('@/assets/fonts/IRANSansWeb(FaNum)_Black.eot') format('eot'),
+  url('@/assets/fonts/IRANSansWeb(FaNum)_Black.woff') format('woff'),
+  url('@/assets/fonts/IRANSansWeb(FaNum)_Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NaaBold';
+  src: url('@/assets/fonts/BNazaninBold.eot') format('eot'),
+  url('@/assets/fonts/BNazaninBold.woff') format('woff'),
+  url('@/assets/fonts/BNazaninBold.ttf') format('truetype');
+}
+
+
+$lightIR: 'IRLight';
+$medIR: 'IRMed';
+$boldIR: 'IRBold';
+$blackIR: 'IRBlack';
+$boldNa: 'NaaBold';
+
+$mainBlue: #0041ce;
+$mainGreen: #2ade00;
+
+$background-image: linear-gradient(to right top, #282c30, #26292d, #23272b, #212428, #1f2226);
+$success: #57E766;
+$info: #60C2F3;
+$danger: #ff4444;
+$warning: #F37011;
+$message: #AD74F5;
+$alert: #E6BF32;
+
